@@ -1,0 +1,155 @@
+@import "../../assets/scss/mixin.scss";
+.doctor {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 150px;
+    a {
+        text-decoration: none;
+        width: 21%;
+        // min-height: 250px;
+        // background:red;
+    }
+}
+
+.tex_yordam {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    h1 {
+        margin-right: 10px;
+    }
+    a {
+        color:blue;
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+
+
+
+.doctor_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-heads{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    padding: 28px;
+    border-radius: 12px !important;
+}
+.css-1ydyjjr-MuiTypography-root{
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    line-height: 32px !important;
+    color: #1464C0 !important;
+}
+.css-e784if-MuiTypography-root{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #4D4D4D;
+}
+.css-1t6e9jv-MuiCardActions-root{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 12px !important;
+    justify-content: center;
+    background-color: #DDEBFB;
+}
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #1464C0 !important;
+}
+
+.doctor_desc_p {
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+ .doctor_desc_p {
+    height: 60px;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 1250px) {
+ .doctor_desc_p {
+    height: 70px;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+    .doctor_desc_p {
+    height: 80px;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.doctor_div {
+    display: block;
+    img {
+        display: flex;
+        justify-content: flex-start;
+        margin: 10px 0;
+    }
+}
+
+
+  .css-bhp9pd-MuiPaper-root-MuiCard-root {
+    padding: 28px;
+    border-radius: 12px !important;
+}
+.css-1ydyjjr-MuiTypography-root{
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    line-height: 32px !important;
+    color: #1464C0 !important;
+}
+.css-e784if-MuiTypography-root{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    color: #4D4D4D;
+}
+.css-1t6e9jv-MuiCardActions-root{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    border-radius: 12px !important;
+    justify-content: center;
+    background-color: #DDEBFB;
+}
+.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    color: #1464C0 !important;
+}
+}
+
+
+@include media(950px){
+    .doctor{
+        flex-direction: column;
+        a{
+            margin-top: 24px;
+        }
+    }
+}

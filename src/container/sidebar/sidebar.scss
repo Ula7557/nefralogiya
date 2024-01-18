@@ -1,0 +1,244 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+
+}
+.site-logo{
+  width: 0; 
+}
+
+.main-menu {
+background-color:#fff;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height: 1300px;
+left:0;
+width:60px;
+overflow:hidden;
+transition:all 0.2s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+
+&:hover{
+  background-color:#fff;
+  border-right:1px solid #e5e5e5;
+  position:fixed;
+  top:0;
+  bottom:0;
+  height: 1300px;
+  left:0;
+  -webkit-transition:width 0.3s linear;
+  transition:width 0.3s linear;
+  -webkit-transform:translateZ(0) scale(1,1);
+  width:250px;
+  overflow:visible;
+.site-logo{
+  width: 100%;
+  padding-left: 12px;
+  padding-top: 45px;
+  padding-right: 24px;
+  margin-bottom: 57px; 
+}
+}
+
+&--open{
+  background-color:#fff;
+  border-right:1px solid #e5e5e5;
+  position:fixed;
+  top:0;
+  bottom:0;
+  height: 1300px;
+  left:0;
+  -webkit-transition:width 0.3s linear;
+  transition:width 0.3s linear;
+  -webkit-transform:translateZ(0) scale(1,1);
+  width:250px;
+  overflow:visible;
+.site-logo{
+  width: 100%;
+  padding-left: 12px;
+  padding-top: 45px;
+  padding-right: 24px;
+  margin-bottom: 57px; 
+}
+}
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+// transition: all 0.3s ease;
+&:not(:last-child){
+  // margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+&:hover{
+  
+  background-image: linear-gradient(270deg, #1564C0 0%, #01C8FF 188.28%);
+  color:#fff;
+  border-radius: 0px 12px 12px 0px;
+  
+}
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #1464C0;
+width:190px;
+padding-left: 20px;
+  &:hover{
+    color:#fff;
+  }
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+.remove-item{
+    position: relative;
+    display: flex;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    // -webkit-transform: translateZ(0) scale(1, 1);
+    // transition: all 0.1s linear;
+    
+   
+    &:hover{
+        padding-top: 9px;
+        padding-bottom: 9px;
+        width: 100%;
+        background-image: linear-gradient(270deg, #1564C0 0%, #01C8FF 188.28%);
+        border-radius: 0px 12px 12px 0px;
+        
+      }
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+
+.ariza_num {
+  position: relative;
+  .ariza_number {
+    position: absolute;
+    top: 6px;
+    bottom:0;
+    right: 10px;
+    margin: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1464C0;
+    width: 25px;
+    height: 25px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    background:white;
+    text-align: center;
+}
+}
